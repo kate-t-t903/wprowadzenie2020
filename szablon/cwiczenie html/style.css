@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: #2d3438;
+}
+
+main {
+    width: 1140px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header nav a{
+    font-weight: 700;
+    padding: 6px 24px;
+    margin: 6px;
+    border-radius: 2px;
+}
+nav a:hover{
+    background: #646d72;
+}
+nav a.active {
+    background: yellow;
+    color: white;
+}
+#logo  {
+    width: 131;
+}
